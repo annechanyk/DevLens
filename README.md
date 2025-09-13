@@ -13,9 +13,8 @@ With a single highlight, developers get:
 2.  **Dual-Tier AI Analysis:** Get quick, on-device explanations from Chrome's AI and deep, comprehensive analysis from an AWS-powered backend.
 
 
-<img src="images/extension.png" alt="Alt text" width="300"/>
-<img src="images/chromeAI.png" alt="Alt text" width="300"/>
-<img src="images/awsBedrock.png" alt="Alt text" width="300"/>
+<img src="images/extension.png" alt="Alt text" width="500"/>     <img src="images/chromeAI.png" alt="Alt text" width="500"/>
+<img src="images/awsBedrock.png" alt="Alt text" width="500"/>
 
 ---
 
@@ -70,7 +69,7 @@ This layered “Local -> On-Device -> Cloud” approach is a novel design that e
 
 ## Architecture Diagram
 
-<img src="images/DevLens.png" alt="Alt text" width="500"/>
+<img src="images/DevLens.png" alt="Alt text" width="800"/>
 
 The architecture is designed for speed, scalability, and intelligence. It prioritizes local and on-device processing for instant feedback, while leveraging the power of the AWS cloud for deep, comprehensive analysis.
 
