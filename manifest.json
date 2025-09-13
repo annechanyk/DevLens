@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "DevLens",
+  "version": "0.1",
+  "description": "DevLens - An AI-powered code analysis tool with Chrome AI and AWS integration for web developers.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["content.css"]
+    }
+  ],
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "action": {
+    "default_title": "DevLens - Highlight code to analyze"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["sidebar.html", "sidebar.js"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "ai-documentation-assistant",
+  "version": "0.1.0",
+  "description": "AI-powered Chrome extension that helps understand web documentation with Baseline compatibility checks and built-in AI explanations",
+  "main": "content.js",
+  "scripts": {
+    "dev": "echo 'Load the extension in Chrome by going to chrome://extensions and clicking Load unpacked'",
+    "test": "echo 'Test by visiting MDN or React docs and highlighting code snippets'"
+  },
+  "keywords": [
+    "chrome-extension",
+    "ai",
+    "documentation",
+    "baseline",
+    "web-development",
+    "compatibility"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {}
+}
