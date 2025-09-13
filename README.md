@@ -56,14 +56,15 @@ This layered “Local -> On-Device -> Cloud” approach is a novel design that e
 ---
 ## Tech Stack
 
-*   **Frontend:** HTML, CSS, JavaScript (ES6+)
-*   **Browser Integration:** Chrome Extension APIs (Manifest V3)
-*   **On-Device AI:** Google Chrome AI (Prompt API)
-*   **Cloud Backend:**
-    *   **API:** Amazon API Gateway
-    *   **Compute:** AWS Lambda
-    *   **AI Model Provider:** Amazon Bedrock (using Amazon Titan models)
-    *   **Monitoring:** Amazon CloudWatch
+* **Frontend:** JavaScript (ES6+), CSS3 with CSS Custom Properties
+* **Browser Integration:** Chrome Extension APIs (Manifest V3)
+* **Content Injection:** Dynamic DOM manipulation and CSS injection
+* **On-Device AI:** Google Chrome AI (Prompt API) 
+* **Cloud Backend:**
+  * **API:** Amazon API Gateway
+  * **Compute:** AWS Lambda
+  * **AI Model Provider:** Amazon Bedrock (using Amazon Titan models)
+  * **Monitoring:** Amazon CloudWatch
 
 ---
 
